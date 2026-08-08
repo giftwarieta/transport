@@ -14,6 +14,9 @@
 
 ## Git + Deploy
 - [x] Commit all changes with a clear message
-- [ ] Push to GitHub `giftwarieta/transport`
-- [ ] Install Vercel CLI and deploy to `fare-checker.vercel.app`
-- [ ] Verify `/health`, `/routes`, `/search` on the live site
+- [x] Push to GitHub `giftwarieta/transport` (main + giftwarieta-branch)
+- [x] Deploy to `fare-checker.vercel.app` (auto-deploy from main)
+- [x] Verify live: `/health` → 200 `{"status":"ok","db":true}`
+- [x] Verify live: `/routes` → 200 (8 routes)
+- [x] Verify live: `/search` → 200, `"sort":"time"`, ordered by date/time ascending
+</content>
